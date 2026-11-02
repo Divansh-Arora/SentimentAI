@@ -1,0 +1,20 @@
+{
+  "max_len": 200,
+  "vocab_size": 20000,
+  "embed_dim": 128,
+  "lstm_units": 64,
+  "dense_units": 64,
+  "dropout": 0.4,
+  "batch_size": 64,
+  "epochs": 10,
+  "learning_rate": 0.001,
+  "patience": 2,
+  "seed": 42,
+  "oov_token": "<OOV>",
+  "padding": "pre",
+  "truncating": "post",
+  "labels": {
+    "0": "negative",
+    "1": "positive"
+  }
+}
